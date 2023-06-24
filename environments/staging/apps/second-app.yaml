@@ -9,7 +9,7 @@ metadata:
 spec:
   project: default # logical grouping of applications, useful when argocd is used by multiple teams
   source:
-    repoURL: https://github.com/iurie-bogdanovici/argocd-demo.git # repo where our kubernetes manifests are located
+    repoURL: https://github.com/iurie-bogdanovici/argocd-demo-2.git # repo where our kubernetes manifests are located
     targetRevision: HEAD # points to the main branch
     path: environments/staging/second-app # path to track inside the github repo
   destination:
